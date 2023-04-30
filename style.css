@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color-dark:#1d69a3;
+    --padding-inline-section:20px;
+}
+body{
+    font-family: "poppins",sans-serif;
+    color: var(--primary-text-color);
+}
+h1{
+    font-size: 3rem;
+
+}
+h2{
+    font-size: 2rem;
+
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    font-family: "roboto",sans-serif ;
+    font-size: 1rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem;
+}
+a{
+   text-decoration: none; /* by deafault it has an underline so this propertiy eleminates underline */
+    display: inline-block;
+}
+
+
+.container{
+   max-width: 1180px;
+    margin: 0px;
+    margin-inline: auto;
+    padding: var(--padding-inline-section);
+}
+
+ul{
+     list-style: none;
+}
+.flex{
+    display: flex;
+   
+}
+                   /* nav bar */
+.main-nav{
+
+ margin-top: 2px;
+
+ justify-content: space-between;
+
+ /* border: 3px solid black; */
+
+ border-radius: 16px;
+}
+ .my-logo img {
+    justify-content: left;
+    width: 120px;
+ }
+ .nav-links{
+
+    flex-basis: 730px;/*the width of the nav links will be 730 px*/
+
+ }
+ .nav-links ul{
+    justify-content: center;
+    gap: 40px;
+    font-weight: 700px;
+ }
+ .hover-links{
+    color: var(--primary-text-color);
+ }
+ .hover-links:hover{
+    color: rgba(10, 192, 170, 0.936);
+    transition: 0.5s ease;
+ }
+ .main-section{
+    background-image: url(./bgIMG.png);
+    background-size: 1200px;
+ }
+ .img{
+    height: 680px;
+ }
+ .pic{
+    margin-left: 350px;
+    margin-top: 30px;
+    width: 42%;
+    background: linear-gradient(to top left,rgb(80, 90, 115),rgb(195, 195, 244) );
+ }
